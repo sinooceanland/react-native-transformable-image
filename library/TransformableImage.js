@@ -2,6 +2,7 @@
 
 import React, { Component, PropTypes } from 'react';
 import { Image } from 'react-native';
+import {AutoRotateImageView} from 'react-native-yuanxincamera'
 
 import ViewTransformer from 'react-native-view-transformer';
 
@@ -97,7 +98,7 @@ export default class TransformableImage extends Component {
         contentAspectRatio={contentAspectRatio}
         onLayout={this.onLayout.bind(this)}
         style={this.props.style}>
-        <Image
+        <AutoRotateImageView
           {...this.props}
           style={[this.props.style, {backgroundColor: 'transparent'}]}
           resizeMode={'contain'}

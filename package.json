@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ldn0x7dc/react-native-transformable-image#readme",
   "dependencies": {
-    "react-native-view-transformer": "0.0.28"
+    "react-native-view-transformer": "0.0.28",
+    "react-native-yuanxincamera": "git+http://alm-tfs.sinooceangroup.com:8080/tfs/YXPlatform/_git/react-native-yuanxincamera"
   }
 }
